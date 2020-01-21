@@ -1,0 +1,200 @@
+body {
+  background-color: #282c34;
+  font-size: 10px;
+}
+
+p, h2 {
+	margin: 0;
+	padding: 0;
+}
+
+.App {
+	background-image: url(./fond-site.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.App-logo {
+  	-webkit-border-radius:10vw;
+ 	-moz-border-radius:10vw;
+ 	border-radius:15vw;
+  	width:15vw;
+	height:15vw;
+	margin-bottom: 1.8em;
+}
+
+.App-header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+	align-items: center;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.Menu {
+	text-align: center;
+	background-color: black;	
+	margin: 0 auto;
+	padding: 1em;
+	width: 75%;
+}
+
+.Menu a {
+	color : white;
+	font-size: 1.8vw;
+	padding: 1em;
+	text-decoration: none;
+}
+
+.Menu a:hover {
+	color : red;
+}
+
+.Carousel {
+	margin: 2vw auto;
+	width: 60vw;
+
+}
+
+.Carousel-img {
+	display: flex;
+}
+
+.Footer {
+	background-color: black;
+	margin-top: 1vw;
+}
+
+.Login {
+ 	border-radius:3vw;
+  	width:30vw;
+	height:25vw;
+	margin: auto;
+	background-color: white;
+	text-align: center;
+	font-size: 2vw;
+	margin-bottom: 2vw;
+	margin-top: 2vw;
+}
+
+.Login_2 {
+	font-size: 5vw;
+}
+
+.Login_3 {
+	display: block;
+}
+
+.Add {
+	margin-left: 95%;
+	margin-top: 0.1vw;	
+	padding: 0.5vw;
+	width: 3%;
+	color: white;
+	font-size: 1vw;
+}
+
+.ListProduct {
+	display: flex;
+	border-radius:3vw;
+	background-color: beige;
+	margin: 1vw 4vw;
+	font-size: 2vw;
+}
+
+.Test {
+	padding: 0 1vw;
+	margin: 1vw;
+}
+
+.Suppr {
+	height: 3vw;
+	border-radius:5vw;
+	margin-top: 2vw;
+	margin-left: 2vw;
+
+}
+
+.Admin {
+	display: flex;
+}
+
+.Coin {
+	display: flex;
+	position: absolute;
+	right: 0;
+}
+
+.LogoPanier img{
+	height: 2.6vw;
+}
+
+.LogoPanier {
+	color: white;
+	text-decoration: none;
+	font-size: 2.2vw;
+}
+
+.Coin-link {
+	text-align: right;
+}
+
+.Coin-link a {
+	color : white;
+	background-color: brown;
+	font-size: 2vw;
+	padding: 0 1vw;
+	text-decoration: none;
+}
+
+.Coin-link a:hover {
+	color : orange;
+}
+
+.Product {
+	background-color: gray;
+	margin: 0 5%;
+	border-radius: 1vw;
+	font-size: 1vw;
+}
+
+.Title {
+	font-size: 3vw;
+}
+
+.ProductButton {
+	margin: 0 1vw 1vw 0.5vw;
+	font-size: 1vw;
+}
+
+.test2 {
+	display: flex;
+}
+
+.Panier {
+	font-size: 3vw;
+}
+
+.PanierList {
+	background-color: gray;
+	margin: 0 5%;
+	border-radius: 1vw;
+	font-size: 1vw;
+}
+
+.Commande {
+	font-size: 3vw;
+}
+
+.Produit {
+	font-size: 3vw;
+}
+
+.PanierButton {
+	font-size: 5vw;
+}
